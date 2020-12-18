@@ -1,0 +1,42 @@
+body{
+    background-color: darkgray;
+}
+
+h1{
+    margin: 20px;
+}
+
+.wrapper{
+    max
+}
+.my-container{
+    margin: 5%;
+    float: left;
+    background-color: whitesmoke;
+    height: 600px;
+    width: 600px;
+    overflow-y: auto;
+}
+
+.my-container img{
+    margin: 4%; 
+    position: static;
+    float:left; 
+}
+
+.my-container p{
+    margin-top: 3%;
+}
+
+.line{
+    margin-left:4%;
+    height: 2px;
+    width: 540px;
+    justify-content: center;
+    background-color: darkgreen;
+}
+
+.footer{
+    background-color: blue;
+    height:55px;
+}
