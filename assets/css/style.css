@@ -26,12 +26,31 @@ h1{
     margin: 3%;
 }
 
-.line{
+.port-container{
+    margin: 5%;
+    float: left;
+    background-color: whitesmoke;
+    height: 600px;
+    width: 90%;
+    overflow-y: auto;
+}
+
+.about-line{
     margin-left:4%;
+    margin-right: 4%;
     height: 2px;
-    width: 540px;
+    width: 92%;
     justify-content: center;
-    background-color: black;
+    background-color: #1A1A1A;
+}
+
+.port-line{
+    margin-left:2%;
+    margin-right: 2%;
+    height: 2px;
+    width: 96%;
+    justify-content: center;
+    background-color: #1A1A1A;
 }
 
 .footer{
@@ -39,9 +58,10 @@ h1{
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: rgb(43, 39, 39);
+    background-color: #1A1A1A;
     color: white;
     text-align: center;
+    height: 55px;
 }
 
 .footer p{
