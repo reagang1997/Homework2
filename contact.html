@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,12 @@
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.min.css">
     <link rel="stylesheet" href="https://bootswatch.com/4/lux/bootstrap.css">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
     <title>Contact Reagan</title>
 </head>
+
 <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
         <div class="container-fluid">
@@ -35,48 +39,70 @@
         </div>
     </nav>
 
-    <div class="port-container">
-        <div class="row">
+    <main class="contact-container">
+        <div class="row" style="margin:auto">
             <div class="col-lg-12 border-bottom border-primary">
                 <h1>Contact Reagan</h1>
             </div>
         </div>
-        <div class="contact-container">
-            <!-- Name Box -->
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="form-group">
-                        <label class="col-form-label" for="nameInput">Name</label>
-                        <input type="text" class="form-control" placeholder="Name" id="nameInput">
-                      </div>
+
+        <!-- Name Box -->
+
+        <div class="row" style="margin-top: 20px;">
+
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="form-group">
+                    <label class="col-form-label" for="nameInput">Name</label>
+                    <input type="text" class="form-control" placeholder="Name" id="nameInput">
                 </div>
             </div>
+
+            <!-- Extra column for spacing -->
+            <div class="col-lg-1 col-md-3 col-sm-3"></div>
+            
             <!-- Email Box -->
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="form-group">
-                        <label class="col-form-label" for="emailInput">Email</label>
-                        <input type="text" class="form-control" placeholder="Email" id="emailInput">
-                      </div>
+            <div class="col-lg-3 col-md-3 col-sm-3">
+                <div class="form-group">
+                    <label class="col-form-label" for="emailInput">Email</label>
+                    <input type="text" class="form-control" placeholder="Email" id="emailInput">
                 </div>
             </div>
-            <!-- Message Box -->
-            <div class="row">
-                <div class="col-lg-2">
-                    <div class="form-group">
-                        <label class="col-form-label col-form-label-lg" for="messageInput">Message</label>
-                        <textarea rows="5" class="form-control message" type="text" placeholder="Message" id="messageInput"></textarea>
-                      </div>
+
+        </div>
+        
+
+        <!-- Message Box -->
+        <div class="row">
+            <div class="col-lg-12 col-md-8 col-sm-6">
+                <div class="form-group">
+                    <label class="col-form-label" for="messageInput">Message</label>
+                    <textarea rows="5" class="form-control message" type="text" placeholder="Message"
+                        id="messageInput"></textarea>
                 </div>
             </div>
         </div>
-    </div>
+        <div class="row">
+            <div class="col-lg-12 col-md-12 col-sm-12">
+                <button type="button" class="btn btn-primary">Submit</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <button type="button" class="btn btn-primary" id="linked-in" href="https://google.com">Linked In</button>
+                
+            </div>
+        </div>
+
+    </main>
+    
+    <div class="space"></div>
     <footer class="footer">
         <div class="row">
             <div class="col-lg-12" style="justify-content: center;">
-                <p>&copy;Reagan Grunwald 2020</p>
+                <p style="padding-top: 5px">&copy;Reagan Grunwald 2020</p>
             </div>
         </div>
     </footer>
 </body>
+
 </html>
